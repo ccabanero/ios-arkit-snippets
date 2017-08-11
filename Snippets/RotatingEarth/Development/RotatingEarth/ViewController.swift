@@ -42,7 +42,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         super.viewWillAppear(animated)
         
         // Create a session configuration
-        let configuration = ARWorldTrackingSessionConfiguration()
+        let configuration = ARWorldTrackingConfiguration()
         
         // Run the view's session
         sceneView.session.run(configuration)
@@ -64,7 +64,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     
     func initializeEarthNode() {
         
-        // Get the earth ndoe in the scene
+        // Get the earth node in the scene
         guard let earthNode = sceneView.scene.rootNode.childNode(withName: "Sphere", recursively: true) else {
             return
         }
@@ -74,9 +74,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         // Rotate the earth node
         let rotateAction = SCNAction.rotate(by: 90, around: SCNVector3Make(0, 1, 0), duration: 700)
-        guard let rotationLoop = SCNAction.repeatForever(rotateAction) else {
-            return
-        }
+        let rotationLoop = SCNAction.repeatForever(rotateAction)
         earthNode.runAction(rotationLoop)
     }
     
