@@ -48,7 +48,7 @@ Below is the workflow used to created the 3D model of the Earth in this sample. 
 
 ![icon](screenshots/7.png)
 
-14) Type the [A] button twice to select all elements of the UV Sphere ... switch from __Default__ view to __UV Editing__ (top-left drop down right of the Help menu) ... Type [U] and choose __Sphere Project__.  Finally make sure that you check __Clip to Bounds__ under the Sphere Projection window (see below).  At this point, play with the various UV Mapping settings and choose the best one for your image/scenario.
+14) Type the [A] button twice to select all elements of the UV Sphere ... switch from __Default__ view to __UV Editing__ (top-left drop down right of the Help menu) ... Type [U] and choose __Sphere Projection_.  Finally make sure that you check __Clip to Bounds__ under the Sphere Projection window (see below).  At this point, play with the various UV Mapping settings and choose the best one for your image/scenario.
 
 ![icon](screenshots/8.png)
 
@@ -73,8 +73,8 @@ Below are some of the setup steps when using the exported 3D model in an AR Scen
 1) The earth_at_night.dae file that was exported from Blender is literally dragged-dropped into the art.scnassets directory of the Xcode project.  The earth_at_night_texture.jpg image that was used in Blender was also dragged-dropped into the art.scnassets directory.  There were various processing steps in the Scene Editor such as:
 
 * Various scene objects from Blender were dropped (e.g. Light, Camera).  These are helpful for keeping in the Blender file when editing maintaining the 3D object work but not needed once imported into Xcode. 
-* Using the Materials inspector, the Diffuse property was set to the earth_at_night_texture.jpg image that was dragged into the art.scnassets directory. After this step, the image texture is visible on the sphere primitive.
-* In the Node Inspector, various manual updates to the Euler transform property to control the visible aspect of the Earth shown when the AR scene loads (see below).
+* Using the Materials inspector, the Diffuse property was set to the earth_at_night_texture.jpg image that was dragged into the art.scnassets directory. After this step, the image texture is visible on the sphere primitive (see below).
+* In the Node Inspector, various manual updates to the Euler transform property to control the visible aspect of the Earth shown when the AR scene loads.
 
 ![icon](screenshots/10.png)
 
