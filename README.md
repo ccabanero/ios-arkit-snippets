@@ -23,9 +23,9 @@ Design & Development notes [can be viewed here](Snippets/RotatingEarth/README.md
 
 Go to ... __Snippets/ARTouchGesture__
 
-* Uses a custom 3D model of a fire wood creatd in [Blender](https://www.blender.org) (an open-source 3D modeling suite) and exported in Collada (.dae) format.
+* Uses a custom 3D model of fire wood creatd in [Blender](https://www.blender.org) and exported in Collada (.dae) format.
 * Adds the fire wood to the AR scene.
-* If User touches the 3D model of fire wood, a particle system of fire is added to the AR scene.  
+* If User touches the 3D model of fire wood, a fire particle system is added to the AR scene.  
 * An audio file (mp3) of fire burning & crackling is played.
 
 ... more on the way ...
