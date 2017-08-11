@@ -13,7 +13,7 @@ Random code samples using [ARKit](https://developer.apple.com/arkit/) - the Augm
 * Positions and Rotates the 3D model of the Earth in the AR scene.
 * Adds a particle system to the AR scene to simulate space.
 
-Design & Development notes [can be viewed here](Snippets/RotatingEarth/README.md).
+Design & Development notes [can be viewed here](https://github.com/ccabanero/ios-arkit-snippets/tree/master/Snippets/RotatingEarth).
 
 ... more on the way ...
 
