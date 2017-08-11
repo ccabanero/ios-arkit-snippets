@@ -35,3 +35,8 @@ Design & Development notes [can be viewed here](Snippets/RotatingEarth/README.md
 * When user chooses a menu item of a 3D object, it is added to the AR scene origin.
 
 --> 
+
+## Connect
+
+* Twitter: [@clintcabanero](http://twitter.com/clintcabanero)
+* GitHub: [ccabanero](http:///github.com/ccabanero)

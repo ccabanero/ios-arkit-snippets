@@ -93,4 +93,7 @@ Below are some of the setup steps when using the exported 3D model in an AR Scen
 
 That's all there is to it! ;)
 
-	
+## Connect
+
+* Twitter: [@clintcabanero](http://twitter.com/clintcabanero)
+* GitHub: [ccabanero](http:///github.com/ccabanero)
