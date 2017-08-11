@@ -2,18 +2,20 @@
 
 ![logo](ARKit.jpg)
 
-Various adventures using [ARKit](https://developer.apple.com/arkit/) - the Augmented Reality framework for iOS.
+Random code samples using [ARKit](https://developer.apple.com/arkit/) - the Augmented Reality framework for iOS.
 
-### Rotating Earth & Particle System of Stars
+### Rotating Earth & Stars Particle System
+
+![icon](Snippets/RotatingEarth/screenshots/RotatingEarthExample.gif)
 
 * Uses a custom 3D model of Earth created in [Blender](https://www.blender.org) (an open-source 3D modeling suite) using [NASA's Earth at Night imagery](https://www.nasa.gov/topics/earth/earthday/gall_earth_night.html) as a model texture.
-* Adds the 3D model of Earth to the AR scene view.
-* Rotates the 3D model of the Earth in the AR scene view.
-* Adds a particle system to the AR scene view to simulate space.
+* Adds the 3D model of Earth to the AR scene.
+* Positions and Rotates the 3D model of the Earth in the AR scene.
+* Adds a particle system to the AR scene to simulate space.
 
-Documentation of [Design steps are provided here](/doc_design_rotatinearth.md)
+Random Design & Development notes [can be viewed here](Snippets/RotatingEarth/README.md).
 
-Documentation of [Development steps are provided here](/doc_development_rotatingearth.md)
+... more on the way ...
 
 <!-- 
 
